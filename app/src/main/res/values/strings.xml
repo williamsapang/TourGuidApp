@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Tour Guid App</string>
+    <string name="headerText">Toraja Tour Guide</string>
 </resources>
