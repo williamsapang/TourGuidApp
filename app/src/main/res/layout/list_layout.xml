@@ -12,47 +12,48 @@
         android:layout_height="105dp"
         android:layout_margin="5dp"
         android:src="@drawable/kete"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="contentDescription" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="188dp"
-        android:layout_height="25dp"
+        android:layout_width="164dp"
+        android:layout_height="26dp"
         android:layout_margin="5dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginLeft="2dp"
-        android:layout_marginRight="2dp"
-        android:layout_marginStart="2dp"
         android:gravity="center"
         android:text="@string/ke_te_kesu"
         android:textColor="@color/textColorPrimary"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="194dp"
-        android:layout_height="42dp"
+        android:layout_width="187dp"
+        android:layout_height="57dp"
         android:gravity="center"
         android:text="@string/kete"
         android:textColor="@color/textColorPrimary"
-        android:textSize="11sp"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <ImageView
+        android:id="@+id/imageView3"
         style="@style/imageLocation"
         android:layout_width="23dp"
-        android:layout_height="21dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_height="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="contentDescription" />
 
 
