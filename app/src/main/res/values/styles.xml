@@ -28,6 +28,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">3dp</item>
         <item name="android:src">@drawable/ic_room</item>
+        <item name="android:tint">@color/colorPrimary</item>
     </style>
 
 </resources>
