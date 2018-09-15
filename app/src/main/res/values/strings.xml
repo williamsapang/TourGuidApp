@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Tour Guid App</string>
     <string name="headerText">Toraja Tour Guide</string>
+    <string name="kete">Pantanakan Lolo, Kesu, Kabupaten Toraja Utara, Sulawesi Selatan 91834</string>
+    <string name="ke_te_kesu">Ke\'Te Kesu</string>
 </resources>
