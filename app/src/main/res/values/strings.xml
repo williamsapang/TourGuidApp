@@ -5,4 +5,12 @@
     <string name="ke_te_kesu">Ke\'Te Kesu</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="setting">Setting</string>
+    <string name="iconic_places">Iconic Places</string>
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="souvenir_centers">Souvenir Centers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
