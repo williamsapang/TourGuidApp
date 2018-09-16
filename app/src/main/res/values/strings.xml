@@ -3,4 +3,6 @@
     <string name="headerText">Toraja Tour Guide</string>
     <string name="kete">Pantanakan Lolo, Kesu, Kabupaten Toraja Utara, Sulawesi Selatan 91834</string>
     <string name="ke_te_kesu">Ke\'Te Kesu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
