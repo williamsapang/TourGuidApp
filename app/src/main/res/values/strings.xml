@@ -13,4 +13,12 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="budget_desc1">
+        <b>Address:</b> Jl. Andi Mappanyukki No. 64, Rantepao, Toraja Utara, Sulawesi Selatan 9183\n
+        <b>Contact:</b> <u>0823-9627-5688</u>\n
+        <b>Prices:</b> average price - Rp.50.000\n
+        <b>Open:</b> Mon-Sun 10AM-10PM
+    </string>
+    <string name="cafe_aras">Cafe Aras</string>
 </resources>

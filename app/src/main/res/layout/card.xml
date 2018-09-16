@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardElevation="7dp"
+    card_view:contentPadding="5dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="389dp"
+        android:layout_height="194dp">
+
+        <ImageView
+            android:id="@+id/place"
+            android:layout_width="155dp"
+            android:layout_height="188dp"
+            android:ignore="contentDescription"
+            android:src="@drawable/budgetcaf1"
+            card_view:layout_constraintEnd_toStartOf="@+id/name"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="194dp"
+            android:layout_height="31dp"
+            android:gravity="center"
+            android:text="@string/cafe_aras"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            card_view:layout_constraintBottom_toTopOf="@+id/description"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toEndOf="@+id/place"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="185dp"
+            android:layout_height="159dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="2dp"
+            android:text="@string/budget_desc1"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toEndOf="@+id/place"
+            card_view:layout_constraintTop_toBottomOf="@+id/name" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
