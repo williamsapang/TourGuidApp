@@ -35,7 +35,7 @@ public class TabFragment extends Fragment {
         viewPager = (ViewPager) view.findViewById(R.id.viewpager);
 
         // Set an adapter
-       // viewPager.setAdapter(new ItemsAdapter(getChildFragmentManager()));
+       //viewPager.setAdapter(new ItemsAdapter(getChildFragmentManager()));
 
         tabLayout.post(new Runnable() {
             @Override

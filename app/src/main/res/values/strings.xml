@@ -17,10 +17,24 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="budget_desc1">
-        <b>Address:</b> Jl. Andi Mappanyukki No. 64, Rantepao, Toraja Utara, Sulawesi Selatan 9183\n
+        <b>Address:</b> Jl. Andi Mappanyukki No. 64, Rantepao, Sulawesi Selatan 91834\n
         <b>Contact:</b> <u>0823-9627-5688</u>\n
         <b>Prices:</b> average price - Rp.50.000\n
         <b>Open:</b> Mon-Sun 10AM-10PM
     </string>
+    <string name="budget_desc2">
+        <b>Address:</b> Jl. Pongtiku No.8, Karassik, Rantepao, Sulawesi Selatan 91834\n
+        <b>Contact:</b> <u>0813-5534-0175</u>\n
+        <b>Prices:</b> average price - Rp.60.000\n
+        <b>Open:</b> Mon-Sat 8AM–8PM
+    </string>
+    <string name="budget_desc3">
+        <b>Address:</b> Jalan Andi Mappanyukki No.115, Malango', Rantepao, Sulawesi Selatan 918334\n
+        <b>Contact:</b> <u>0813-5339-2779</u>\n
+        <b>Prices:</b> average price - Rp.50.000\n
+        <b>Open:</b> Mon-Sun 7AM–11PM
+    </string>
+    <string name="rimiko_restaurant"> Rimiko Restaurant</string>
     <string name="cafe_aras">Cafe Aras</string>
+    <string name="cafe_kanaan">Cafe Kanaan</string>
 </resources>
