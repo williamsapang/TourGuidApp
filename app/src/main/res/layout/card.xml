@@ -16,7 +16,6 @@
             android:id="@+id/place"
             android:layout_width="155dp"
             android:layout_height="188dp"
-            android:ignore="contentDescription"
             android:src="@drawable/budgetcaf1"
             card_view:layout_constraintEnd_toStartOf="@+id/name"
             card_view:layout_constraintStart_toStartOf="parent"
@@ -38,10 +37,7 @@
 
         <TextView
             android:id="@+id/description"
-            android:layout_width="185dp"
-            android:layout_height="159dp"
-            android:layout_marginEnd="2dp"
-            android:layout_marginStart="2dp"
+            style="@style/description.2"
             android:text="@string/budget_desc1"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toEndOf="@+id/place"
