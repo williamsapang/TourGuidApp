@@ -22,38 +22,19 @@
         <b>Prices:</b> average price - Rp.50.000\n
         <b>Open:</b> Mon-Sun 10AM-10PM
     </string>
-
     <string name="budget_desc2">
         <b>Address:</b> Jl. Pongtiku No.8, Karassik, Rantepao, Sulawesi Selatan 91834\n
         <b>Contact:</b> <u>0813-5534-0175</u>\n
         <b>Prices:</b> average price - Rp.60.000\n
         <b>Open:</b> Mon-Sat 8AM–8PM
     </string>
-
     <string name="budget_desc3">
         <b>Address:</b> Jalan Andi Mappanyukki No.115, Malango', Rantepao, Sulawesi Selatan 918334\n
         <b>Contact:</b> <u>0813-5339-2779</u>\n
         <b>Prices:</b> average price - Rp.50.000\n
         <b>Open:</b> Mon-Sun 7AM–11PM
     </string>
-
-    <string name="costly_desc1">
-    <b>Address:</b> Jl. Pongtiku No.22, Karassik, Rantepao, Sulawesi Selatan 91833\n
-    <b>Contact:</b> <u>0823-9627-5688</u>\n
-    <b>Prices:</b> average price - Rp.100.000\n
-    <b>Open:</b> Tus-Mon 09AM-11PM
-    </string>
-
-    <string name="costly_desc2">
-    <b>Address:</b> Jl. Pembangunan, Penanian, Rantepao, Sulawesi Selatan 91833\n
-    <b>Contact:</b> <u>0823-7930-1622</u>\n
-    <b>Prices:</b> average price - Rp.180.000\n
-    <b>Open:</b> Tus-Mon 08AM-04PM
-    </string>
-
     <string name="rimiko_restaurant"> Rimiko Restaurant</string>
     <string name="cafe_aras">Cafe Aras</string>
-    <string name="house_bistro">The House Bistro Galleria</string>
     <string name="cafe_kanaan">Cafe Kanaan</string>
-    <string name="pong_buri">Warung Makan Pong Buri</string>
 </resources>

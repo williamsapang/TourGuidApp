@@ -31,11 +31,11 @@ public class TabFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_tab, nullParent);
-        viewPager = (ViewPager) view.findViewById(R.id.viewpager);
         tabLayout = (TabLayout) view.findViewById(R.id.sliding_tabs);
+        viewPager = (ViewPager) view.findViewById(R.id.viewpager);
 
         // Set an adapter
-       viewPager.setAdapter(new ItemsAdapter(getChildFragmentManager()));
+       //viewPager.setAdapter(new ItemsAdapter(getChildFragmentManager()));
 
         tabLayout.post(new Runnable() {
             @Override
