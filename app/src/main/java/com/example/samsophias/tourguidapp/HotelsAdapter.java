@@ -25,8 +25,8 @@ public class HotelsAdapter extends FragmentPagerAdapter {
             case 0:
                 ArrayList<List> budget = new ArrayList<>();
                 budget.add(new List(R.drawable.hotels1, R.string.indra, R.string.hotelsbudgetdesc1));
-                budget.add(new List(R.drawable.budgetcaf2, R.string.cafe_kanaan, R.string.budget_desc2));
-                budget.add(new List(R.drawable.budgetcaf3, R.string.rimiko_restaurant, R.string.budget_desc3));
+                budget.add(new List(R.drawable.hotels2, R.string.misliana, R.string.hotelsbudgetdesc2));
+                budget.add(new List(R.drawable.hotels3, R.string.heritage, R.string.hotelsbudgetdesc3));
 
                 return BudgetFragment.newInstance(budget);
 
