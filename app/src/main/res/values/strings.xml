@@ -12,9 +12,9 @@
     <string name="hotels">Hotels</string>
     <string name="restaurants">Restaurants</string>
     <string name="souvenir_centers">Souvenir Centers</string>
+    <string name="toko_dodo">Toko Dodo</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="budget_desc1">
         <b>Address:</b> Jl. Andi Mappanyukki No. 64, Rantepao, Sulawesi Selatan 91834\n
@@ -31,7 +31,7 @@
     </string>
 
     <string name="budget_desc3">
-        <b>Address:</b> Jalan Andi Mappanyukki No.115, Malango', Rantepao, Sulawesi Selatan 918334\n
+        <b>Address:</b> Jalan Andi Mappanyukki No.115, Rantepao, Sulawesi Selatan 918334\n
         <b>Contact:</b> <u>0813-5339-2779</u>\n
         <b>Prices:</b> average price - Rp.50.000\n
         <b>Open:</b> Mon-Sun 7AM–11PM
@@ -51,9 +51,23 @@
     <b>Open:</b> Tus-Mon 08AM-04PM
     </string>
 
+    <string name="costly_desc3">
+    <b>Address:</b> Jl. Andi Mappanyukki no. 119, Rantepao, Indonesia 91831\n
+    <b>Contact:</b> <u>042-321079</u>\n
+    <b>Prices:</b> average price - Rp.100.000\n
+    <b>Open:</b> Mon-Sun 07AM-10PM
+    </string>
+
     <string name="rimiko_restaurant"> Rimiko Restaurant</string>
     <string name="cafe_aras">Cafe Aras</string>
     <string name="house_bistro">The House Bistro Galleria</string>
     <string name="cafe_kanaan">Cafe Kanaan</string>
     <string name="pong_buri">Warung Makan Pong Buri</string>
+    <string name="saruran">Saruran Restaurant</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="toko_ecky">Toko Ecky</string>
+    <string name="souvenir1_desc">Jl. Rura No 31, Nanggala, Rantepao, Sulawesi Selatan 91834</string>
+    <string name="souvenir2_desc">Jl. Lemo Barat no 12, Rantepao, Sulawesi Selatan 92521</string>
 </resources>

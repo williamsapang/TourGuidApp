@@ -11,15 +11,15 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-public class BudgetFragment extends Fragment {
+public class ExpensiveFragment extends Fragment {
+
 
     final ViewGroup nullParent = null;
     RecyclerView recyclerView;
     RecyclerView.Adapter adapter;
     View view;
 
-
-    public BudgetFragment() {
+    public ExpensiveFragment() {
         // Required empty public constructor
     }
 
@@ -31,14 +31,17 @@ public class BudgetFragment extends Fragment {
         recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(mLayoutManager);
-        final ArrayList<List> budget = new ArrayList<>();
-        budget.add(new List(R.drawable.budgetcaf1, R.string.cafe_aras, R.string.budget_desc1));
-        budget.add(new List(R.drawable.budgetcaf2, R.string.cafe_kanaan, R.string.budget_desc2));
-        budget.add(new List(R.drawable.budgetcaf3, R.string.rimiko_restaurant, R.string.budget_desc3));
+        final ArrayList<List> costly = new ArrayList<>();
+        costly.add(new List(R.drawable.costlycaf1, R.string.house_bistro, R.string.costly_desc1));
+        costly.add(new List(R.drawable.costlycaf2, R.string.pong_buri, R.string.costly_desc2));
+        costly.add(new List(R.drawable.costlycaf3, R.string.saruran, R.string.costly_desc3));
+        costly.add(new List(R.drawable.costlycaf3, R.string.saruran, R.string.costly_desc3));
 
 
-        adapter = new CardAdapter(budget);
+        adapter = new CardAdapter(costly);
         recyclerView.setAdapter(adapter);
         return view;
     }
+
+
 }

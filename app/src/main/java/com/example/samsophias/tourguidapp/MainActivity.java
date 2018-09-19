@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     TabFragment tabFragments;
     NavigationView navigationView;
     FragmentManager fragManager;
+    SouvenirFragment souvenir;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,9 +63,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
            fragManager.beginTransaction().replace(R.id.frame, tabFragments).commit();
        }else if (id == R.id.souvenir_centers) {
            setTitle("Souvenir Centers");
-           tabFragments = new TabFragment();
+           souvenir = new SouvenirFragment();
            fragManager = getSupportFragmentManager();
-           fragManager.beginTransaction().replace(R.id.frame, tabFragments).commit();
+           fragManager.beginTransaction().replace(R.id.frame, souvenir).commit();
        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
