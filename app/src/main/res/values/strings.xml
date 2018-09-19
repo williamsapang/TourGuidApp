@@ -50,6 +50,12 @@
     <b>Prices:</b> average price - Rp.180.000\n
     <b>Open:</b> Tus-Mon 08AM-04PM
     </string>
+    <string name="hotelsbudgetdesc1">
+        <b>Address:</b> Jl. Landorundun No.63 Rantepao, Toraja Utara; Sulawesi Selatan 91833\n
+        <b>Contact:</b> <u>0812-4417-4945</u>\n
+        <b>Prices:</b> average price - Rp.350.000\n
+        <b>E-mail:</b> indrahotel63@yahoo.com
+    </string>
 
     <string name="costly_desc3">
     <b>Address:</b> Jl. Andi Mappanyukki no. 119, Rantepao, Indonesia 91831\n
@@ -70,4 +76,7 @@
     <string name="toko_ecky">Toko Ecky</string>
     <string name="souvenir1_desc">Jl. Rura No 31, Nanggala, Rantepao, Sulawesi Selatan 91834</string>
     <string name="souvenir2_desc">Jl. Lemo Barat no 12, Rantepao, Sulawesi Selatan 92521</string>
+
+    <string name="indra">Hotel Indra Toraja</string>
+
 </resources>

@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     NavigationView navigationView;
     FragmentManager fragManager;
     SouvenirFragment souvenir;
+    HotelsFragment hotels;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        setTitle("Places");
+        places = new PlaceFragment();
+        fragManager = getSupportFragmentManager();
+        fragManager.beginTransaction().replace(R.id.frame, places).commit();
+
     }
 
      @SuppressWarnings("StatementWithEmptyBody")
@@ -53,9 +59,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
            item.setChecked(true);
        } else if (id == R.id.hotels) {
            setTitle("Hotels");
-           tabFragments = new TabFragment();
+           hotels = new HotelsFragment();
            fragManager = getSupportFragmentManager();
-           fragManager.beginTransaction().replace(R.id.frame, tabFragments).commit();
+           fragManager.beginTransaction().replace(R.id.frame, hotels).commit();
        }else if (id == R.id.restaurants) {
            setTitle("Restaurants");
            tabFragments = new TabFragment();

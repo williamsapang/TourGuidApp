@@ -6,9 +6,9 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import java.util.ArrayList;
 
-public class ItemsAdapter extends FragmentPagerAdapter {
+public class HotelsAdapter extends FragmentPagerAdapter {
 
-    ItemsAdapter(FragmentManager fm) {
+    HotelsAdapter(FragmentManager fm) {
         super(fm);
     }
 
@@ -24,7 +24,7 @@ public class ItemsAdapter extends FragmentPagerAdapter {
         switch (position) {
             case 0:
                 ArrayList<List> budget = new ArrayList<>();
-                budget.add(new List(R.drawable.budgetcaf1, R.string.cafe_aras, R.string.budget_desc1));
+                budget.add(new List(R.drawable.hotels1, R.string.indra, R.string.hotelsbudgetdesc1));
                 budget.add(new List(R.drawable.budgetcaf2, R.string.cafe_kanaan, R.string.budget_desc2));
                 budget.add(new List(R.drawable.budgetcaf3, R.string.rimiko_restaurant, R.string.budget_desc3));
 

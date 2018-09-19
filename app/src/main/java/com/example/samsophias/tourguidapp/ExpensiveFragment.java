@@ -19,6 +19,15 @@ public class ExpensiveFragment extends Fragment {
     RecyclerView.Adapter adapter;
     View view;
 
+    ArrayList<List> costly;
+
+    // TODO: Rename and change types and number of parameters
+    public static ExpensiveFragment newInstance(ArrayList<List> costly) {
+        ExpensiveFragment fragment = new ExpensiveFragment();
+        fragment.costly = costly;
+        return fragment;
+    }
+
     public ExpensiveFragment() {
         // Required empty public constructor
     }
@@ -31,12 +40,6 @@ public class ExpensiveFragment extends Fragment {
         recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(mLayoutManager);
-        final ArrayList<List> costly = new ArrayList<>();
-        costly.add(new List(R.drawable.costlycaf1, R.string.house_bistro, R.string.costly_desc1));
-        costly.add(new List(R.drawable.costlycaf2, R.string.pong_buri, R.string.costly_desc2));
-        costly.add(new List(R.drawable.costlycaf3, R.string.saruran, R.string.costly_desc3));
-        costly.add(new List(R.drawable.costlycaf3, R.string.saruran, R.string.costly_desc3));
-
 
         adapter = new CardAdapter(costly);
         recyclerView.setAdapter(adapter);
