@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        setTitle("Places");
+        setTitle(getString(R.string.placese));
         places = new PlaceFragment();
         fragManager = getSupportFragmentManager();
         fragManager.beginTransaction().replace(R.id.frame, places).commit();
@@ -52,23 +52,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
        if (id == R.id.iconic_places) {
-           setTitle("Places");
+           setTitle(getString(R.string.placese));
            places = new PlaceFragment();
            fragManager = getSupportFragmentManager();
            fragManager.beginTransaction().replace(R.id.frame, places).commit();
            item.setChecked(true);
        } else if (id == R.id.hotels) {
-           setTitle("Hotels");
+           setTitle(getString(R.string.hotels));
            hotels = new HotelsFragment();
            fragManager = getSupportFragmentManager();
            fragManager.beginTransaction().replace(R.id.frame, hotels).commit();
        }else if (id == R.id.restaurants) {
-           setTitle("Restaurants");
+           setTitle(getString(R.string.resto));
            tabFragments = new TabFragment();
            fragManager = getSupportFragmentManager();
            fragManager.beginTransaction().replace(R.id.frame, tabFragments).commit();
        }else if (id == R.id.souvenir_centers) {
-           setTitle("Souvenir Centers");
+           setTitle(getString(R.string.souvenirs));
            souvenir = new SouvenirFragment();
            fragManager = getSupportFragmentManager();
            fragManager.beginTransaction().replace(R.id.frame, souvenir).commit();

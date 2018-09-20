@@ -5,7 +5,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="setting">Setting</string>
     <string name="iconic_places">Iconic Places</string>
-    <string name="hotels">Hotels</string>
+    <string name="hotelse">Hotels</string>
     <string name="restaurants">Restaurants</string>
     <string name="souvenir_centers">Souvenir Centers</string>
     <string name="toko_dodo">Toko Dodo</string>
@@ -157,5 +157,10 @@
     <string name="toko_ecky">Toko Ecky</string>
     <string name="souvenir1_desc">Jl. Rura No 31, Nanggala, Rantepao, Sulawesi Selatan 91834</string>
     <string name="souvenir2_desc">Jl. Lemo Barat no 12, Rantepao, Sulawesi Selatan 92521</string>
+    <string name="placeses">Places</string>
+    <string name="placese">Places</string>
+    <string name="hotels">Hotels</string>
+    <string name="resto">Restaurants</string>
+    <string name="souvenirs">Souvenir Centers</string>
 
 </resources>
