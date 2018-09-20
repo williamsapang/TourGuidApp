@@ -34,10 +34,9 @@ public class HotelsAdapter extends FragmentPagerAdapter {
             case 1:
                 ArrayList<List> costly = new ArrayList<>();
                 costly.add(new List(R.drawable.marante, R.string.marante, R.string.hotelscostlydesc1));
-                costly.add(new List(R.drawable.luta, R.string.lutaname, R.string.hotelscostlydesc2));
-                costly.add(new List(R.drawable.negandeng, R.string.negandeng, R.string.hotelscostlydesc2));
-
-
+                costly.add(new List(R.drawable.luta, R.string.luta, R.string.hotelscostlydesc2));
+                costly.add(new List(R.drawable.negandeng, R.string.negandeng, R.string.hotelscostlydesc3));
+                costly.add(new List(R.drawable.layuklion, R.string.layuklion, R.string.hotelscostlydesc4));
                 return ExpensiveFragment.newInstance(costly);
         }
         return null;

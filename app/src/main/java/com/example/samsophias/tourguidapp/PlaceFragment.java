@@ -30,6 +30,10 @@ public class PlaceFragment extends Fragment {
         final ArrayList<List> places = new ArrayList<>();
         places.add(new List(R.drawable.kete, R.string.ke_te_kesu, R.string.kete));
         places.add(new List(R.drawable.bori, R.string.borik, R.string.boris));
+        places.add(new List(R.drawable.londa, R.string.londaname, R.string.londa));
+        places.add(new List(R.drawable.batutumonga, R.string.batu, R.string.tumonga));
+        places.add(new List(R.drawable.kambira, R.string.kambira_name, R.string.kambira));
+        places.add(new List(R.drawable.buntupune, R.string.pune, R.string.buntupune));
 
 
         listAdapter = new com.example.samsophias.tourguidapp.ListAdapter(getActivity(),places);

@@ -13,10 +13,22 @@
 
     //place_name_desc
     <string name="kete">Pantanakan Lolo, Kesu, Kabupaten Toraja Utara, Sulawesi Selatan 91834</string>
-    <string name="boris">Bori, Sesean, Kabupaten Toraja Utara, Sulawesi Selatan 91853</string>
-    <string name="borik">Kalimbuang Bori</string>
     <string name="ke_te_kesu">Ke\'Te Kesu</string>
 
+    <string name="boris">Bori, Sesean, Kabupaten Toraja Utara, Sulawesi Selatan 91853</string>
+    <string name="borik">Kalimbuang Bori</string>
+
+    <string name="buntupune">Ba\'tan, Kesu, North Toraja Regency, South Sulawesi 91834</string>
+    <string name="pune">Buntu Pune</string>
+
+    <string name="kambira">Tongko Sarapung, Sangalla, Tana Toraja Regency, South Sulawesi 91881</string>
+    <string name="kambira_name">Kambira</string>
+
+    <string name="tumonga">Batutumonga, Lempo, Sesean Suloara, Kabupaten Toraja Utara, Sulawesi Selatan 91853</string>
+    <string name="batu">Batutumonga</string>
+
+    <string name="londa">Desa Sandan Uai, Kec. Sanggalangi. 6 km Selatan Rantepao, Toraja Utara 91853</string>
+    <string name="londaname">Londa</string>
 
     //restoBudget_desc
     <string name="budget_desc1">
@@ -103,7 +115,7 @@
     </string>
 
     <string name="hotelscostlydesc2">
-        <b>Address:</b> Jl. Dr Sam Ratulangi No. 26, Singki', Rantepao, Toraja Utara 91831\n
+        <b>Address:</b> Jl. Dr Sam Ratulangi No. 26, Singki\', Rantepao, Toraja Utara 91831\n
         <b>Contact:</b> <u>0853-9858-3188</u>\n
         <b>Prices:</b> average price - Rp.725.000\n
         <b>E-mail:</b> lutaresorts@gmail.com
@@ -116,15 +128,23 @@
         <b>E-mail:</b> gandengersfamily@gmail.com
     </string>
 
+    <string name="hotelscostlydesc4">
+        <b>Address:</b> Jl. Makale, Tana Toraja, Tana Toraja, Indonesia 91831\n
+        <b>Contact:</b> <u>0852-0234-5812</u>\n
+        <b>Prices:</b> average price - Rp.555.000\n
+        <b>E-mail:</b> layuklionerz@gmail.com
+    </string>
+
 
     //hotels_name
     <string name="indra">Hotel Indra Toraja</string>
     <string name="misliana">Toraja Misiliana Hotel</string>
     <string name="heritage">Toraja Heritage Hotel</string>
     <string name="marante">Hotel Marante Toraja</string>
-    <string name="lutaname">Luta Resort</string>
+    <string name="luta">Luta Resort Toraja</string>
     <string name="indoselaname">Indo Sella Homestay</string>
     <string name="negandeng">Hotel Ne Gandeng</string>
+    <string name="layuklion">Tongkonan Layuk Lion</string>
 
 
     //resto_name

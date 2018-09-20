@@ -35,7 +35,6 @@ public class ItemsAdapter extends FragmentPagerAdapter {
                 costly.add(new List(R.drawable.costlycaf1, R.string.house_bistro, R.string.costly_desc1));
                 costly.add(new List(R.drawable.costlycaf2, R.string.pong_buri, R.string.costly_desc2));
                 costly.add(new List(R.drawable.costlycaf3, R.string.saruran, R.string.costly_desc3));
-                costly.add(new List(R.drawable.costlycaf3, R.string.saruran, R.string.costly_desc3));
 
                 return ExpensiveFragment.newInstance(costly);
         }

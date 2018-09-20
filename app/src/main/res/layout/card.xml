@@ -16,11 +16,12 @@
         <ImageView
             android:id="@+id/place"
             android:layout_width="155dp"
-            android:layout_height="188dp"
+            android:layout_height="103dp"
             android:src="@drawable/budgetcaf1"
+            card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toStartOf="@+id/name"
             card_view:layout_constraintStart_toStartOf="parent"
-            card_view:layout_constraintTop_toTopOf="parent" />
+            card_view:layout_constraintTop_toBottomOf="@+id/name" />
 
         <TextView
             android:id="@+id/name"
@@ -31,7 +32,6 @@
             android:textColor="@color/textColorPrimary"
             android:textSize="20sp"
             android:textStyle="bold"
-            card_view:layout_constraintBottom_toTopOf="@+id/description"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toEndOf="@+id/place"
             card_view:layout_constraintTop_toTopOf="parent" />
@@ -39,10 +39,14 @@
         <TextView
             android:id="@+id/description"
             style="@style/description.2"
+            android:layout_height="0dp"
+            android:gravity="center_vertical|center_horizontal"
             android:text="@string/budget_desc1"
+            card_view:layout_constraintBottom_toBottomOf="@+id/place"
             card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.1"
             card_view:layout_constraintStart_toEndOf="@+id/place"
-            card_view:layout_constraintTop_toBottomOf="@+id/name" />
+            card_view:layout_constraintTop_toTopOf="@+id/place" />
 
     </android.support.constraint.ConstraintLayout>
 
