@@ -50,24 +50,6 @@
     <b>Prices:</b> average price - Rp.180.000\n
     <b>Open:</b> Tus-Mon 08AM-04PM
     </string>
-    <string name="hotelsbudgetdesc1">
-        <b>Address:</b> Jl. Landorundun No.63 Rantepao, Toraja Utara, Sulawesi Selatan 91833\n
-        <b>Contact:</b> <u>0812-4417-4945</u>\n
-        <b>Prices:</b> average price - Rp.350.000\n
-        <b>E-mail:</b> indrahotel63@yahoo.com
-    </string>
-    <string name="hotelsbudgetdesc2">
-        <b>Address:</b> Jl. Pongtiku No.27 Rantepao, Toraja Utara, Sulawesi Selatan 91832\n
-        <b>Contact:</b> <u>+62 423 21212</u>\n
-        <b>Prices:</b> average price - Rp.225.000\n
-        <b>E-mail:</b> info@torajamisiliana.com
-    </string>
-    <string name="hotelsbudgetdesc3">
-        <b>Address:</b> Jl. Kete Kesu, P.O Bos 80 Rantepao, Tana Toraja South Sulawesi 91832\n
-        <b>Contact:</b> <u>+6242 32 1192</u>\n
-        <b>Prices:</b> average price - Rp.175.000\n
-        <b>E-mail:</b> sales_marketing@toraja-heritage.com
-    </string>
 
     <string name="costly_desc3">
     <b>Address:</b> Jl. Andi Mappanyukki no. 119, Rantepao, Indonesia 91831\n
@@ -76,6 +58,35 @@
     <b>Open:</b> Mon-Sun 07AM-10PM
     </string>
 
+    <string name="hotelsbudgetdesc1">
+        <b>Address:</b> Jl. Landorundun No.63 Rantepao, Toraja Utara, Sulawesi Selatan 91833\n
+        <b>Contact:</b> <u>0812-4417-4945</u>\n
+        <b>Prices:</b> average price - Rp.350.000\n
+        <b>E-mail:</b> indrahotel63@yahoo.com
+    </string>
+
+    <string name="hotelsbudgetdesc2">
+        <b>Address:</b> Jl. Pongtiku No.27 Rantepao, Toraja Utara, Sulawesi Selatan 91832\n
+        <b>Contact:</b> <u>+62 423 21212</u>\n
+        <b>Prices:</b> average price - Rp.225.000\n
+        <b>E-mail:</b> info@torajamisiliana.com
+    </string>
+
+    <string name="hotelsbudgetdesc3">
+        <b>Address:</b> Jl. Kete Kesu, P.O Bos 80 Rantepao, Tana Toraja South Sulawesi 91832\n
+        <b>Contact:</b> <u>+6242 32 1192</u>\n
+        <b>Prices:</b> average price - Rp.175.000\n
+        <b>E-mail:</b> sales_marketing@toraja-heritage.com
+    </string>
+
+    <string name="hotelscostlydesc1">
+        <b>Address:</b> Jl. Jurusan Palopo, PO Box 52 Rantepao, Tana Toraja 91832\n
+        <b>Contact:</b> <u>(0423) 21122</u>\n
+        <b>Prices:</b> average price - Rp.683.000\n
+        <b>E-mail:</b> -
+    </string>
+
+
     <string name="rimiko_restaurant"> Rimiko Restaurant</string>
     <string name="cafe_aras">Cafe Aras</string>
     <string name="house_bistro">The House Bistro Galleria</string>
@@ -83,8 +94,7 @@
     <string name="pong_buri">Warung Makan Pong Buri</string>
     <string name="saruran">Saruran Restaurant</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="toko_ecky">Toko Ecky</string>
     <string name="souvenir1_desc">Jl. Rura No 31, Nanggala, Rantepao, Sulawesi Selatan 91834</string>
     <string name="souvenir2_desc">Jl. Lemo Barat no 12, Rantepao, Sulawesi Selatan 92521</string>
@@ -92,5 +102,6 @@
     <string name="indra">Hotel Indra Toraja</string>
     <string name="misliana">Toraja Misiliana Hotel</string>
     <string name="heritage">Toraja Heritage Hotel</string>
+    <string name="marante">Hotel Marante Toraja</string>
 
 </resources>
