@@ -1,10 +1,6 @@
 <resources>
     <string name="app_name">Tour Guid App</string>
     <string name="headerText">Toraja Tour Guide</string>
-    <string name="kete">Pantanakan Lolo, Kesu, Kabupaten Toraja Utara, Sulawesi Selatan 91834</string>
-    <string name="boris">Bori, Sesean, Kabupaten Toraja Utara, Sulawesi Selatan 91853</string>
-    <string name="borik">Kalimbuang Bori</string>
-    <string name="ke_te_kesu">Ke\'Te Kesu</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="setting">Setting</string>
@@ -14,8 +10,15 @@
     <string name="souvenir_centers">Souvenir Centers</string>
     <string name="toko_dodo">Toko Dodo</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
 
+    //place_name_desc
+    <string name="kete">Pantanakan Lolo, Kesu, Kabupaten Toraja Utara, Sulawesi Selatan 91834</string>
+    <string name="boris">Bori, Sesean, Kabupaten Toraja Utara, Sulawesi Selatan 91853</string>
+    <string name="borik">Kalimbuang Bori</string>
+    <string name="ke_te_kesu">Ke\'Te Kesu</string>
+
+
+    //restoBudget_desc
     <string name="budget_desc1">
         <b>Address:</b> Jl. Andi Mappanyukki No. 64, Rantepao, Sulawesi Selatan 91834\n
         <b>Contact:</b> <u>0823-9627-5688</u>\n
@@ -37,6 +40,8 @@
         <b>Open:</b> Mon-Sun 7AM–11PM
     </string>
 
+
+    //restoCostly_desc
     <string name="costly_desc1">
     <b>Address:</b> Jl. Pongtiku No.22, Karassik, Rantepao, Sulawesi Selatan 91833\n
     <b>Contact:</b> <u>0823-9627-5688</u>\n
@@ -58,6 +63,8 @@
     <b>Open:</b> Mon-Sun 07AM-10PM
     </string>
 
+
+    //hotelsBudget_desc
     <string name="hotelsbudgetdesc1">
         <b>Address:</b> Jl. Landorundun No.63 Rantepao, Toraja Utara, Sulawesi Selatan 91833\n
         <b>Contact:</b> <u>0812-4417-4945</u>\n
@@ -79,6 +86,15 @@
         <b>E-mail:</b> sales_marketing@toraja-heritage.com
     </string>
 
+    <string name="hotelsbudgetdesc4">
+        <b>Address:</b> Jalan Limsing 07, Rantepao, Rantepao, Indonesia, 91831\n
+        <b>Contact:</b> <u>+6243 90 6612</u>\n
+        <b>Prices:</b> average price - Rp.225.000\n
+        <b>E-mail:</b> indosela@gmail.com
+    </string>
+
+
+    //hotelsCosly_desc
     <string name="hotelscostlydesc1">
         <b>Address:</b> Jl. Jurusan Palopo, PO Box 52 Rantepao, Tana Toraja 91832\n
         <b>Contact:</b> <u>(0423) 21122</u>\n
@@ -86,22 +102,40 @@
         <b>E-mail:</b> -
     </string>
 
+    <string name="hotelscostlydesc2">
+        <b>Address:</b> Jl. Dr Sam Ratulangi No. 26, Singki', Rantepao, Toraja Utara 91831\n
+        <b>Contact:</b> <u>0853-9858-3188</u>\n
+        <b>Prices:</b> average price - Rp.725.000\n
+        <b>E-mail:</b> lutaresorts@gmail.com
+    </string>
 
+    <string name="hotelscostlydesc3">
+        <b>Address:</b> Jl. Museum NeGandeng no.1 Malakiri, Rantepao Toraja Utara 91853\n
+        <b>Contact:</b> <u>0852-7024-1012</u>\n
+        <b>Prices:</b> average price - Rp.575.000\n
+        <b>E-mail:</b> gandengersfamily@gmail.com
+    </string>
+
+
+    //hotels_name
+    <string name="indra">Hotel Indra Toraja</string>
+    <string name="misliana">Toraja Misiliana Hotel</string>
+    <string name="heritage">Toraja Heritage Hotel</string>
+    <string name="marante">Hotel Marante Toraja</string>
+    <string name="lutaname">Luta Resort</string>
+    <string name="indoselaname">Indo Sella Homestay</string>
+    <string name="negandeng">Hotel Ne Gandeng</string>
+
+
+    //resto_name
     <string name="rimiko_restaurant"> Rimiko Restaurant</string>
     <string name="cafe_aras">Cafe Aras</string>
     <string name="house_bistro">The House Bistro Galleria</string>
     <string name="cafe_kanaan">Cafe Kanaan</string>
     <string name="pong_buri">Warung Makan Pong Buri</string>
     <string name="saruran">Saruran Restaurant</string>
-
-
     <string name="toko_ecky">Toko Ecky</string>
     <string name="souvenir1_desc">Jl. Rura No 31, Nanggala, Rantepao, Sulawesi Selatan 91834</string>
     <string name="souvenir2_desc">Jl. Lemo Barat no 12, Rantepao, Sulawesi Selatan 92521</string>
-
-    <string name="indra">Hotel Indra Toraja</string>
-    <string name="misliana">Toraja Misiliana Hotel</string>
-    <string name="heritage">Toraja Heritage Hotel</string>
-    <string name="marante">Hotel Marante Toraja</string>
 
 </resources>
