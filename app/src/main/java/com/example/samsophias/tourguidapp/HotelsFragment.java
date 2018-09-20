@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-
 public class HotelsFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -17,7 +16,6 @@ public class HotelsFragment extends Fragment {
     public TabLayout tabLayout;
     public ViewPager viewPager;
     View view;
-
 
 
     public HotelsFragment() {

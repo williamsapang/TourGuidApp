@@ -1,7 +1,6 @@
 package com.example.samsophias.tourguidapp;
 
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -20,14 +19,14 @@ public class BudgetFragment extends Fragment {
     View view;
     ArrayList<List> budget;
 
+    public BudgetFragment() {
+    }
+
     // TODO: Rename and change types and number of parameters
     public static BudgetFragment newInstance(ArrayList<List> budget) {
         BudgetFragment fragment = new BudgetFragment();
         fragment.budget = budget;
         return fragment;
-    }
-
-    public BudgetFragment() {
     }
 
     @Override
@@ -38,7 +37,6 @@ public class BudgetFragment extends Fragment {
         recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(mLayoutManager);
-
 
 
         adapter = new CardAdapter(budget);

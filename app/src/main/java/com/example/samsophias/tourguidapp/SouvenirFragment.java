@@ -1,7 +1,5 @@
 package com.example.samsophias.tourguidapp;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -10,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import java.util.ArrayList;
-
 
 
 public class SouvenirFragment extends Fragment {
@@ -33,7 +30,7 @@ public class SouvenirFragment extends Fragment {
         souvenir.add(new List(R.drawable.souvenir2, R.string.toko_dodo, R.string.souvenir2_desc));
 
 
-        listAdapter = new com.example.samsophias.tourguidapp.ListAdapter(getActivity(),souvenir);
+        listAdapter = new com.example.samsophias.tourguidapp.ListAdapter(getActivity(), souvenir);
         listView = (ListView) view.findViewById(R.id.souvenir_list);
         listView.setAdapter(listAdapter);
 

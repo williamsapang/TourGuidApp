@@ -21,15 +21,15 @@ public class ExpensiveFragment extends Fragment {
 
     ArrayList<List> costly;
 
+    public ExpensiveFragment() {
+        // Required empty public constructor
+    }
+
     // TODO: Rename and change types and number of parameters
     public static ExpensiveFragment newInstance(ArrayList<List> costly) {
         ExpensiveFragment fragment = new ExpensiveFragment();
         fragment.costly = costly;
         return fragment;
-    }
-
-    public ExpensiveFragment() {
-        // Required empty public constructor
     }
 
     @Override

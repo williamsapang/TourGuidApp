@@ -1,5 +1,4 @@
-
-    package com.example.samsophias.tourguidapp;
+package com.example.samsophias.tourguidapp;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;

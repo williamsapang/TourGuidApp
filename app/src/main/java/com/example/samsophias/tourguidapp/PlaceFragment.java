@@ -36,7 +36,7 @@ public class PlaceFragment extends Fragment {
         places.add(new List(R.drawable.buntupune, R.string.pune, R.string.buntupune));
 
 
-        listAdapter = new com.example.samsophias.tourguidapp.ListAdapter(getActivity(),places);
+        listAdapter = new com.example.samsophias.tourguidapp.ListAdapter(getActivity(), places);
         listView = (ListView) view.findViewById(R.id.place_list);
         listView.setAdapter(listAdapter);
 

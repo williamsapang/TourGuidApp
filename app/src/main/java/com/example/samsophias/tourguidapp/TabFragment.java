@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-
 public class TabFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -17,7 +16,6 @@ public class TabFragment extends Fragment {
     public TabLayout tabLayout;
     public ViewPager viewPager;
     View view;
-
 
 
     public TabFragment() {
@@ -35,7 +33,7 @@ public class TabFragment extends Fragment {
         tabLayout = (TabLayout) view.findViewById(R.id.sliding_tabs);
 
         // Set an adapter
-       viewPager.setAdapter(new ItemsAdapter(getChildFragmentManager()));
+        viewPager.setAdapter(new ItemsAdapter(getChildFragmentManager()));
 
         tabLayout.post(new Runnable() {
             @Override
